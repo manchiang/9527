@@ -1,33 +1,209 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>长沙桑拿按摩服务</title>
+<style>
+#left{ width:20%;height:450px; position:absolute; left:0px; background:red; border:1px #000 solid}
+#right{width:20%;height:450px; position:absolute; right:0px; background:blue; border:1px #000 solid}
+#div_close_x,#div_close_y{ width:10px; height:10px;position:absolute;right:0px; top:0px;}
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="9527 : manchiang.github.io">
+#min-left{ width:30%;height:auto; position:absolute; left:20%; background:red; border:1px #000 solid}
+#min-right{ width:30%;height:auto; position:absolute; right:20%; background:blue; border:1px #000 solid}
+#back-up  {
+		position: fixed;
+  	 	right: 20px;
+   		bottom: 100px; 
+   }
+</style>
+<script>
+window.onload=window.onscroll=function()
+{
+var oLeft = document.getElementById("left");
+var oRight = document.getElementById("right");
+var scrollY=document.documentElement.scrollTop||document.body.scrollTop;
+var clientH = document.documentElement.clientHeight;
+var oCloseX =document.getElementById("div_close_x")
+var oCloseY =document.getElementById("div_close_y")
+oLeft.style.top=(clientH-oLeft.offsetHeight)/2+scrollY+"px";
+oRight.style.top=(clientH-oRight.offsetHeight)/2+scrollY+"px";
+oCloseX.onclick=function()
+{
+this.parentNode.parentNode.removeChild(this.parentNode);
+}
+oCloseY.onclick=function()
+{
+this.parentNode.parentNode.removeChild(this.parentNode);
+}
+}
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+var backUp = function (){
+	//把内容滚动指定的像素数（第一个参数是向右滚动的像素数，第二个参数是向下滚动的像素数） 
+	window.scrollBy(0,-100); 
+	//延时递归调用，模拟滚动向上效果 
+	scrolldelay = setTimeout('backUp()',100); 
+	//获取scrollTop值，声明了DTD的标准网页取document.documentElement.scrollTop，否则取document.body.scrollTop；因为二者只有一个会生效，另一个就恒为0，所以取和值可以得到网页的真正的scrollTop值 
+	var sTop=document.documentElement.scrollTop+document.body.scrollTop; 
+	//判断当页面到达顶部，取消延时代码（否则页面滚动到顶部会无法再向下正常浏览页面） 
+	if(sTop==0) clearTimeout(scrolldelay); 
+}
+</script>
+</head>
+<body style="height:2000px;">
+<div id="left">
+<div id="div_close_x">X</div>
+</div>
 
-    <title>9527</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a id="forkme_banner" href="https://github.com/manchiang">View on GitHub</a>-->
-          <h1 id="project_title"9527.</h1>
-          <h2 id="project_tagline">我這一生只染黑白</h2>
-        </header>
-    </div>
+<div id="min-left">
+	<ul>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+				<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li><li>test1</li>
+				<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+				<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+				<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+		
+		<li>test1</li>
+		<li>test1</li>
+		<li>test1</li>
+	</ul>
+		<div id="back-up" onclick="backUp()">回到顶部</div>
+</div>
+<div id="min-right">
+	<ul>
+		<li>test2</li>
+		<li>test2</li>
+		<li>test2</li>
+		
+		<li>test2</li>
+		<li>test2</li>
+		<li>test2</li>
+		
+		<li>test2</li>
+		<li>test2</li>
+		
+		<li>test2</li>
+	</ul>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap"  ailgn="center" style:"height:auto;">
-      <section id="main_content" class="inner">
-        <p>面對大河 我無限慚愧</p>
-        <p>我年華虚度 空有一身疲倦</p> 
-        <p>和所有以夢為馬的詩人一样</p> 
-        <p>歲月易逝 一滴不剩</p>
-      </section>
-    </div>
-  </body>
+</div>
+
+<div id="right">
+<div id="div_close_y">X</div>
+</div>
+
+</body>
 </html>
